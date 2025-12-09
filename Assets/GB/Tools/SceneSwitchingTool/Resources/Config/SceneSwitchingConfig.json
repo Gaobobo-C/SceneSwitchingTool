@@ -1,0 +1,12 @@
+﻿{
+    "SceneShortcuts": [
+        {
+            "MenuLabel": "场景1",
+            "SceneName": "test1"
+        },
+        {
+            "MenuLabel": "场景2",
+            "SceneName": "test2"
+        }
+    ]
+}
