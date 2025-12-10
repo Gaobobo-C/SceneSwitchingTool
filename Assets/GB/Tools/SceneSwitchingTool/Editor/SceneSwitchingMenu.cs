@@ -2,7 +2,7 @@
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-namespace GB
+namespace GB.Tools.Editor
 {
     public static class SceneSwitchingMenu
     {

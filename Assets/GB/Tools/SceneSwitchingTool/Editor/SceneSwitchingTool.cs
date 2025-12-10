@@ -4,7 +4,7 @@
 // 作者：GB
 // 创建时间：2025-12-07 21:55:32
 // 修改时间：2025-12-07 21:55:32
-// 版本：1.0.0
+// 版本：1.0.1
 // 描述：场景切换工具
 // Github：https://github.com/Gaobobo-C/SceneSwitchingTool.git
 // ============================================
@@ -17,7 +17,7 @@ using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace GB.Tools
+namespace GB.Tools.Editor
 {
     public class SceneSwitchingTool : EditorWindow
     {
@@ -500,7 +500,7 @@ namespace GB.Tools
             sb.AppendLine("using UnityEditor.SceneManagement;");
             sb.AppendLine("using UnityEngine;");
             sb.AppendLine();
-            sb.AppendLine("namespace GB");;
+            sb.AppendLine("namespace GB.Tools.Editor");;
             sb.AppendLine("{");
             sb.AppendLine("    public static class SceneSwitchingMenu");
             sb.AppendLine("    {");
